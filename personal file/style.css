@@ -1,0 +1,37 @@
+
+
+.list {
+  margin-bottom: 5px;
+}
+
+.list li{
+  margin-bottom: 13px;
+}
+
+.design{
+  border: 2px double pink;
+  padding:20px;
+  font-size:30px;
+  border-radius: 5px;
+
+}
+
+.center{
+  text-align: center;
+  background-color: salmon;
+}
+
+#float {
+  float: left;
+  width:40%;
+}
+
+#width{
+  width:50%;
+  margin-left: 45%;
+}
+
+.color{
+  border:2px solid rgb(212, 106, 106);
+  padding: 45px;
+}
