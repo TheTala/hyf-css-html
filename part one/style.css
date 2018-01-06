@@ -1,0 +1,156 @@
+html{
+  background-color: #999;
+}
+
+h1{
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 110px;
+  line-height: 3px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: rgb(18, 16, 57);
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  color: grey;
+  font-size: 35px;
+  line-height: 5px;
+  position: relative;
+  z-index: 90;
+}
+
+h3{
+  padding-left: 50px;
+  color: rgb(18, 16, 57);
+  line-height: 30px;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;
+  position: relative;
+  z-index: 90;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(95, 82, 113);
+  font-size: 15px;
+  padding-top: 34px;
+  padding-left: 50px;
+  padding-right: 40px;
+  margin-bottom: -20px;
+}
+
+#background-div img {
+  width:75%;
+  margin-left: 12%;
+  margin-top: 10px;
+  border: solid 1px grey;
+  box-shadow: 0 0 100px rgba(0,0,0,0.6);
+  margin-bottom: 10px;
+  z-index: -10;
+  position: relative;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+}
+
+h6{
+  font-size: 15px;
+}
+
+#nook-ul{
+  width: 90%;
+  display: flex;
+  margin-left: 18%;
+}
+
+#nook-ul .first-content{
+  background-color: white;
+  width: 30%;
+  height: 600px;
+  padding: 10px;
+  flex-direction: row;
+  margin-top: -60%;
+}
+
+#nook-chair{
+  margin-top: -80px;
+  position: relative;
+  margin-left: -10px;
+  z-index: 0;
+}
+
+.stars{
+  margin-left: 35px;
+}
+
+.reviews{
+  position: absolute;
+  margin-top: 33px;
+  font-size: 17px;
+  margin-left: -20px;
+  color: rgb(95, 82, 113);
+  font-family: 'Work Sans', sans-serif;
+}
+
+h5{
+  margin-left: 60px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input{
+  margin-left: 170px;
+  width:150px;
+  height: 40px;
+  font-size: 25px;
+  margin-top: -55px;
+  position: absolute;
+}
+
+.not-inline{
+  display: list-item;
+}
+
+#last-id{
+  position: absolute;
+  margin-left: -35px;
+  z-index: 92;
+}
+
+#i-was-wrong{
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#really-wrong{
+  color: 	rgb(204,204,0);
+  font-family: 'Khula', sans-serif;
+  font-size: 30px;
+}
+
+#i-kill{
+  color: rgb(204,204,0);
+  margin-left: 65%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+#control{
+  margin-top: -16%;
+  border-top: 1px solid rgb(220,220,220);
+  width: 50%;
+  position: relative;
+  z-index: 100;
+  margin-left: 28%;
+}
+
+.blue{
+  color: blue;
+  display: inline;
+  margin-left: 17%;
+}
