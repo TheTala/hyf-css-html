@@ -1,0 +1,1021 @@
+/*smartphones*/
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width:736px){
+     .tours h3{
+    color: white;
+  }
+
+
+
+
+  #moomin-logo img{
+    width:50%;
+  }
+
+  img{
+    width:100%;
+  }
+
+body {
+  padding-left: 3%;
+  padding-right: 3%;
+  width:100%;
+
+}
+
+li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.main-text {
+  text-align: center;
+  font-family: 'Slabo 27px',sans-serif;
+}
+
+.main-text h1{
+  font-size:100px;
+  color:#35733c;
+  font-family: 'Rokkitt', serif;
+  font-weight:lighter;
+  margin-bottom: -50px;
+
+}
+
+.main-text h2{
+  color:#333;
+  font-size: 70px;
+  padding-top: -10px;
+  font-family: 'Rokkitt', serif;
+  font-weight:lighter;
+
+}
+
+
+.circle{
+  background-color: #e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 100px;
+  width:30%;
+  padding:0px;
+  position:relative;
+  font-family: 'Cedarville Cursive',cursive;
+  line-height:270px;
+  margin-left: 35%;
+}
+
+#circle:hover {
+  cursor:pointer;
+}
+
+.time {
+  background-color: #35733c;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding: 80px;
+  padding-top: 35px;
+  line-height:40px;
+  margin-top: -10px;
+  padding-bottom: 20%;
+}
+
+.m img{
+  position: absolute;
+  width: 100px;
+  margin-top: -150px;
+  margin-left: 45%;
+}
+
+.exhibition{
+  text-align:center;
+  background-color:#363636;
+  width:85%;
+  margin-left:7%;
+  padding-top:30px;
+  color:white;
+  font-size:28px;
+  height: 189px;
+  display:block;
+  font-family: 'Source Serif Pro',serif;
+}
+.exhibition{
+  text-align:center;
+  background-color:#363636;
+  width:100%;
+  padding-top:150px;
+  color:white;
+  font-size:50px;
+  height: 350px;
+  display:block;
+  font-family: 'Sanchez', serif;
+  margin-left: 0%;
+  font-weight: lighter;
+}
+
+.two-eyes img{
+  display: none;
+}
+
+.three-eyes img{
+  display: none;
+}
+
+
+
+.next {
+  display:block;
+  margin-bottom: 10%;
+  padding-left: 90px;
+  padding-right: 90px;
+  color:#333;
+}
+
+.next h2{
+  font-size: 80px;
+}
+
+
+.cookies{
+  text-align:center;
+  width:100%;
+  color:#404041;
+  background-color: #7ab7bc;
+  font-family: 'Source Serif Pro',serif;
+  height:1000px;
+  position: relative;
+  margin-top: -20px;
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.cookies p{
+  font-size: 40px;
+}
+
+.double-circle p{
+  background-color:#e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 80px;
+  padding-left: 40px;
+  position:absolute;
+  z-index:10;
+  font-family: 'Cedarville Cursive',cursive;
+  margin-left:35%;
+  margin-top: -55%;
+  width:28%;
+}
+
+.welcome p{
+  margin-top: -35%;
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-bottom: 50px;
+  width: 28%;
+}
+
+
+.moomin-museum {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.quote {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size:15px;
+  text-align: center;
+  padding-top: 115px;
+  color: #333;
+  line-height: 15px;
+;
+}
+
+p.quote{
+  color:#35733c;
+  padding-top: 10px;
+  font-family: 'Source Serif Pro',serif;
+  font-size: 70px;
+  padding-left: 100px;
+  padding-right:100px;
+  font-weight: bold;
+  line-height: normal;
+
+}
+
+.tampera {
+  padding-top: 50px;
+}
+
+#side1 {
+  background:url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: -37px;
+  width: 100%;
+  padding-left: 7%;
+  position: relative;
+}
+
+#side1 li{
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  font-size: 0.75em;
+}
+#side1 .flex-items:first-child {
+  padding-top: 20%;
+}
+
+#side1 .flex-items:nth-child(6){
+  padding-bottom: 0;
+  margin-bottom: -100%;
+}
+
+#box-it {
+  padding:0px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#box-it .flex-it {
+  flex-direction: row;
+  width:25%;
+  border: 4px solid white;
+  height:auto;
+}
+
+#box-it li{
+  border:4px solid white;
+  text-align: center;
+  width:300px;
+  font-size:30px;
+  line-height: 50px;
+  margin-top: 15px;
+  font-family: monospace;
+}
+
+.facebook {
+  display: none;
+}
+
+#logo img{
+  visibility: hidden;
+
+}
+}
+
+/*tablets*/
+@media screen and (min-device-width:737px) and (max-device-width:1199px){
+  #moomin-logo img{
+    width:30%;
+  }
+
+  img{
+    width:100%;
+  }
+
+body {
+  padding-left: 3%;
+  padding-right: 3%;
+  width:100%;
+
+}
+
+li {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.main-text {
+  text-align: center;
+  font-family: 'Slabo 27px',sans-serif;
+}
+
+.main-text h1{
+  font-size:60px;
+  color:#35733c;
+  font-family: 'Rokkitt', serif;
+  font-weight:lighter;
+  margin-bottom: -50px;
+  width:70%;
+  text-align: center;
+  margin-left: 15%;
+
+}
+
+.main-text h2{
+  color:#333;
+  font-size: 50px;
+  padding-top: -10px;
+  font-family: 'Rokkitt', serif;
+  font-weight:lighter;
+
+}
+
+
+.circle{
+  background-color: #e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 50px;
+  width:17%;
+  padding:0px;
+  position:relative;
+  font-family: 'Cedarville Cursive',cursive;
+  line-height:160px;
+  margin-left: 80%;
+  margin-top: -18%;
+}
+
+#circle:hover {
+  cursor:pointer;
+}
+
+.time {
+  background-color: #35733c;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 27px;
+  padding: 70px;
+  padding-top: 15px;
+  line-height:40px;
+  margin-top: -15px;
+  padding-bottom: 5%;
+}
+
+.m img{
+  position: absolute;
+  width: 55px;
+  margin-top: -70px;
+  margin-left: 49%;
+}
+
+.exhibition{
+  text-align:center;
+  background-color:#363636;
+  width:100%;
+  padding-top:30px;
+  color:white;
+  font-size:28px;
+  height: 260px;
+  display:block;
+  font-family: 'Source Serif Pro',serif;
+}
+
+.two-eyes {
+  float: right;
+  margin-top: -34%;
+  margin-right: 0%;
+  display: block;
+  width:230px;
+  position: relative;
+}
+
+.three-eyes {
+  margin-top:-27%;
+  display: block;
+  position: relative;
+  margin-bottom: 10%;
+  margin-left: 2%;
+  width:230px;
+}
+
+
+.moving-tablet{
+  float:left;
+  width: 50%;
+}
+
+
+.moving img{
+  margin-top: -14%;
+}
+
+.next {
+  margin-bottom: 40%;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 14px;
+  color: #333;
+}
+
+.woman-tablet {
+  float: right;
+  width: 50%;
+}
+
+.woman {
+  margin-top: -14%;
+}
+
+.news{
+  margin-top: 90%;
+  font-size: 28px;
+
+
+}
+
+.news h1{
+  margin-left: 42%;
+  position: absolute;
+}
+
+#five-eyes .three-eyes img{
+  margin-left: -20px;
+  margin-top: -30px;
+}
+
+#five-eyes .two-eyes img{
+  margin-top:50px;
+}
+
+
+.cookies{
+  text-align:center;
+  width:100%;
+  color:#404041;
+  background-color: #7ab7bc;
+  font-family: 'Source Serif Pro',serif;
+  height:500px;
+  position: relative;
+  margin-top: -100px;
+  padding-top: 20px;
+  font-size: 27px;
+}
+
+.cookies p{
+  font-size: 22px;
+  width:100%;
+
+}
+
+.double-circle p{
+  background-color:#e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 40px;
+  padding-left: 0px;
+  position:absolute;
+  z-index:10;
+  font-family: 'Cedarville Cursive',cursive;
+  margin-left:41%;
+  margin-top: -30%;
+  width:15%;
+}
+
+.welcome p{
+  margin-top: -23%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width:17%;
+}
+
+
+.moomin-museum {
+  width:95%;
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 10%;
+  font-size: 27px;
+  padding-left: 30px;
+  padding-right: 20px;
+  color: #333;
+  float: none;
+}
+
+.tours h3{
+  color: white;
+}
+
+.quote {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size:45px;
+  text-align: center;
+  padding-top: 115px;
+  color: #333;
+  line-height: normal;
+;
+}
+
+p.quote{
+  color:#35733c;
+  padding-top: 10px;
+  font-family: 'Source Serif Pro',serif;
+  font-size: 40px;
+  padding-left: 70px;
+  padding-right:70px;
+  font-weight: bold;
+  line-height: normal;
+
+}
+
+.annoying img{
+  width:50%;
+  margin-left:25%;
+}
+
+#side1 {
+  background:url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: -37px;
+  padding-right:21px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#side1 .flex-items {
+  margin-right: 30px;
+  margin-bottom: 70px;
+  flex-direction: row;
+  width:calc(33.3% - 30px);
+  font-size: 17px;
+
+}
+
+#side1 .flex-items:nth-child(3){
+  padding-right: 0px;
+}
+
+#box-it .flex-it {
+
+  border: 4px solid white;
+  height:auto;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: -40px;
+}
+
+#box-it li{
+  border:2px solid white;
+  text-align: center;
+  width:200px;
+  font-size:20px;
+  margin-top: 15px;
+  font-family: monospace;
+  padding-right: 0px;
+  line-height: 40px;
+}
+
+.facebook img{
+width:30px;
+}
+
+.facebook li{
+  display: inline;
+}
+
+
+#logo img{
+  width:80px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  margin-top:-30%;
+
+}
+
+#logo {
+  display: inline;
+  margin-top: -40%;
+  margin-bottom: 20px;
+}
+
+#last{
+  width:35%;
+  float: right;
+  margin-top: -5%;
+  width:60%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#last img{
+  width:130px;
+  margin-left: 20px;
+}
+
+.lower {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+}
+
+
+@media screen and (min-device-width:1200px) {
+
+
+li{
+  list-style-type: none;
+}
+#moomin-logo{
+  margin-left: 7%;
+}
+
+
+
+.main-image img{
+  width:93%
+}
+
+.main-text {
+  position:absolute;
+  margin-top: -3%;
+  margin-left: 15%;
+  background-color: white;
+  width:56%;
+  text-align: center;
+  font-family: 'Slabo 27px',sans-serif;
+  font-size:20px;
+  text-decoration: none;
+  color:#35733c;
+}
+
+.main-text h2{
+  color:#333;
+}
+.main-show {
+  margin-top: 1%;
+  margin-left: 7%;
+  height:1000px;
+}
+
+.circle {
+  background-color: #e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 35px;
+  width:9%;
+  padding:0px;
+  position:absolute;
+  z-index:10;
+  margin-top:0%;
+  margin-left: 65%;
+  font-family: 'Cedarville Cursive',cursive;
+  line-height:120px;
+
+}
+
+#circle:hover {
+  cursor:pointer;
+}
+
+.time {
+  width:85%;
+  background-color: #35733c;
+  margin-left: 7%;
+  margin-top:-22%;
+  padding-top:45px;
+  padding-bottom:10px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.time p{
+  padding-right:100px;
+  padding-left: 100px;
+}
+
+.m {
+  position:absolute;
+  z-index: 10;
+  margin-top:-5%;
+  margin-left:86%;
+}
+
+.exhibition{
+  text-align:center;
+  background-color:#363636;
+  width:85%;
+  margin-left:7%;
+  padding-top:30px;
+  color:white;
+  font-size:28px;
+  height: 189px;
+  display:block;
+  font-family: 'Source Serif Pro',serif;
+}
+
+.two-eyes {
+  float: right;
+  margin-top: -25%;
+  margin-right: 8%;
+  display:block;
+}
+
+.three-eyes {
+  margin-left:7%;
+  margin-top:-15%;
+  display:block;
+  margin-bottom: 10%;
+}
+
+
+.moving-tablet {
+  float: left;
+  width:50%;
+  margin-left: 7%;
+  margin-top: -9.5%;
+}
+
+.woman-tablet {
+  float:right;
+  position: absolute;
+  width:50%;
+  margin-left: 49%;
+  margin-top: -9.41%;
+}
+
+.woman-tablet p, h2{
+  padding-right: 170px;
+}
+
+.next {
+padding-right:200px;
+padding-left: 30px;
+font-size: 15px;
+  margin-bottom: 10px;
+  color: #333;
+
+}
+
+.news {
+  margin-top: 45%;
+}
+
+#move img{
+  position: absolute;
+  margin-top:8.5%;
+  margin-left: -14.2%;
+  z-index: 10;
+}
+
+.text {
+  display:block;
+  color: #333;
+}
+
+#five-eyes {
+  margin-bottom: -10%;
+}
+
+
+.images {
+  margin-left: 7%;
+}
+
+.images img{
+  width:570px;
+}
+
+.cookies{
+  background-color:#7ab7bc;
+  text-align: center;
+  height:180px;
+  margin-bottom: -7%;
+  width:79%;
+  margin-left: 7%;
+  margin-top: -10%;
+  padding-top: 3%;
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #404041;
+}
+
+.cookies h2, h3{
+  margin-left: 30%;
+  width:40%;
+  font-size: 1.5em;
+
+}
+
+.cookies p{
+  width:45%;
+  margin-left: 27%;
+  text-align: center;
+}
+
+.tours {
+  padding-top: 10%;
+}
+
+.tours h3{
+  color: white;
+  font-size: 1.2em;
+}
+
+
+.double-circle p{
+  background-color:#e94e0f;
+  color:white;
+  border-radius: 50%;
+  text-align:center;
+  font-size: 30px;
+  padding-left: 0px;
+  position:absolute;
+  z-index:10;
+  font-family: 'Cedarville Cursive',cursive;
+  margin-left: 80%;
+  margin-top: -7%;
+  width:9%;
+}
+
+.welcome p{
+  margin-top: -4%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width:9%;
+}
+
+.images{
+  float: left;
+  margin-top: 7%;
+  margin-right: 30px;
+}
+
+.moomin-museum {
+  line-height: normal;
+  color: #333;
+  position: relative;
+  margin-top: 10%;
+  font-size: 15px;
+
+}
+
+.tampera {
+  float: left;
+  position: relative;
+  color: #333;
+  width:32%;
+  margin-left: 7%;
+  margin-top: 0px;
+}
+
+
+.image2 img{
+  width:570px;
+  float:right;
+  position: relative;
+  margin-top: -19.5%;
+  margin-right: 7.5%;
+}
+
+.quote {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size:30px;
+  text-align: center;
+  color: #333;
+  position: relative;
+  margin-top: 50%;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+p.quote{
+  color:#35733c;
+  font-family: 'Source Serif Pro',serif;
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+
+
+.book {
+  float: left;
+  position: absolute;
+  margin-left: 7%;
+  width:570px;
+}
+
+#all-three{
+  float: right;
+  font-size: 20px;
+  padding-top: 2%;
+  color:#333;
+}
+
+
+.annoying{
+  margin-top: 35%;
+}
+
+.annoying li{
+  display: inline;
+}
+
+#side1 {
+  padding:0px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+  background-image: url(https://muumimuseo.fi/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg);
+  width: 100%;
+
+}
+
+.flex-items{
+  flex-direction: row;
+  width:calc (16.6%-10px);
+  height:auto;
+  line-height:normal;
+  font-size: 12px;
+  margin:10px;
+  position: relative;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom:100px;
+  margin-top: 5%;
+
+}
+
+.flex-items p{
+  padding-bottom: 0px;
+  margin: 0px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.flex-items p:hover {
+  text-decoration: underline;
+}
+
+.flex-items h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flex-items:first-child p:hover{
+  text-decoration: none;
+}
+
+.flex-items:first-child h4:hover {
+  text-decoration: none;
+}
+
+#box-it .flex-it{
+  border:2px solid white;
+  text-align: center;
+  width:100px;
+  font-size:13px;
+  margin-top: 15px;
+  margin-left: -40%;
+}
+
+#box-it p{
+  margin: 10px;
+  font-family: monospace;
+}
+
+footer{
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+
+.facebook li{
+  display: inline;
+  margin-right: 10px;
+}
+
+.facebook {
+  margin-left: 17%;
+}
+
+
+
+
+#logo img{
+  margin-left: 47%;
+  display: inline;
+  margin-top: -40px;
+  width: 50px;
+}
+
+#last {
+  float: right;
+  margin-top: -4%;
+}
+}
