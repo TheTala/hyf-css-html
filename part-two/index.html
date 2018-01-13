@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" lang="en">
+<link rel="stylesheet" href="style.css">
+<title>Dribbble - Purchase - Card</title>
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+
+<body>
+  <ul>
+    <li class="space"><button id="hope3"><img src="http://www.iconarchive.com/download/i88066/icons8/ios7/Finance-Credit-Card.ico" alt="Credit card symbol"><p> Credit/Debit</p></button></li>
+    <li class="space"><button id="hope"><img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Paypal-icon.png" alt="Paypal symbol"><p> PayPal</p></button></li>
+    <li class="space"><button id="hopetwo"><img src="https://cdn.pixabay.com/photo/2013/12/08/12/12/bitcoin-225079_960_720.png" alt="bitcoin symbol"><p>Bitcoin</p></button></li>
+  </ul>
+
+<script>
+
+        document.getElementById('hope').onclick = function() {
+            document.getElementById('body').innerHTML = '<div id="experimentwo"><img class="paypal" src="http://blog.publicisna.com/wp-content/uploads/2012/10/paypal.png?w=150"><button class="paypal-button" type="submit">Continue with PayPal</button><p id="paypal-para" >What is PayPal?</p></div>';
+        }
+
+        document.getElementById('hopetwo').onclick = function() {
+            document.getElementById('body').innerHTML = '<div id="experimenthree"><img class="paypal" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Bitcoin_logo.svg/2000px-Bitcoin_logo.svg.png"><button class="paypal-button" type="submit">Continue with Bitcoin</button><p id="bitcoin-para">What is Bitcoin?</p></div>';
+        };
+
+       document.getElementById('hope3').onclick = function() {
+            document.getElementById('body').innerHTML = '<div id="experiment"><p>Enter card information</p><input class=height type=text name=FirstName placeholder="First Name" size=20><input class="height" type="text" name="Last Name" placeholder="Last Name"><input class="height" type="text" name="Zip Code" placeholder="Zip Code" size="10"><input class="height move" type="text" name="Card number" placeholder="Card number" size="30"><div id="labels"><label><input type="checkbox" name="VISA" value="small"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png"></label><label><input type="checkbox" name="Mastercard" value="small"><img src="https://seeklogo.com/images/M/MasterCard-logo-92AB7D0014-seeklogo.com.png"></label><label><input type="checkbox" name="discover" value="small"><img src="https://seeklogo.com/images/D/Discover_Card-logo-4BC5D7C02C-seeklogo.com.png"></label><label><input type="checkbox" name="amex" value="small"><img src="http://1000logos.net/wp-content/uploads/2017/09/Font-Amex-Logo.jpg"></label></div><input class="height move" type="text" name="Security code" placeholder="Security code" size="30"><input class="height date" type="date" name="date"><button id="get-out" type="submit">Confirm Purchase</button></div>';
+          }
+</script>
+
+<div id="body">
+  <div id="experiment">
+    <p>Enter card information</p>
+    <input class="height" type="text" name="First Name" placeholder="First Name" size="20">
+    <input class="height" type="text" name="Last Name" placeholder="Last Name">
+    <input class="height" type="text" name="Zip Code" placeholder="Zip Code" size="10">
+    <input class="height move card-number" type="text" name="Card number" placeholder="Card number" size="30">
+
+    <div id="labels">
+    <label>
+      <input type="checkbox" name="VISA" value="small">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png">
+    </label>
+    <label>
+      <input type="checkbox" name="Mastercard" value="small">
+      <img src="https://seeklogo.com/images/M/MasterCard-logo-92AB7D0014-seeklogo.com.png">
+    </label>
+    <label>
+      <input type="checkbox" name="discover" value="small">
+      <img src="https://seeklogo.com/images/D/Discover_Card-logo-4BC5D7C02C-seeklogo.com.png">
+    </label>
+    <label>
+      <input type="checkbox" name="amex" value="small">
+      <img src="http://1000logos.net/wp-content/uploads/2017/09/Font-Amex-Logo.jpg">
+    </label>
+  </div>
+  <input class="height move " type="text" name="Security code" placeholder="Security code" size="30">
+  <input class="height date" type="date"  name="date">
+  <button id="get-out" type="submit">Confirm Purchase</button>
+</div>
+
+</div>
+</body>
