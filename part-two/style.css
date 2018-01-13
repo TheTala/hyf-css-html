@@ -37,6 +37,7 @@ ul{
   color: #696969;
 }
 
+
 div#experiment{
   position: relative;
   height: 560px;
@@ -143,7 +144,7 @@ label input:checked + img{
 }
 
 #hopetwo img{
-  width:100px;
+  width:120px;
 }
 
 #hope3{
@@ -295,6 +296,8 @@ div#experimenthree:before {
   .space p{
     line-height: 2px;
     font-size: 30px;
+    text-align: center;
+    position: relative;
   }
 
   div#experiment{
